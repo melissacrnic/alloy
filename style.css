@@ -22,10 +22,15 @@ h1, h2 {
 
 }
 h1 {
-  font-size:40px;
+  font-size:200%;
 }
+
+h2 {
+  font-size:100%;
+}
+
 p {
-  font-size: 18px;
+  font-size: 20%;
   line-height: 1.5;
 }
 
@@ -64,6 +69,7 @@ footer {
   float:right;
 }
 
+
 nav a {
   padding: 20px;
   color: black;
@@ -94,7 +100,6 @@ header img {
 .quote {
   background: #72d5cd;
   color: white;
-  line-height: .3%;
   font-style: italic;
   text-align: left;
 }
@@ -105,8 +110,12 @@ blockquote {
   padding-left: 5%;
 }
 
+.quote h2 {
+  font-size: 135%;
+}
+
 .quote h3 {
-  font-size: 38px;
+  font-size: 120%;
 }
 
 /* ABOUT
@@ -114,8 +123,19 @@ blockquote {
 .about {
   background: #6787A2;
   color: white;
+  text-align: justify;
 }
 
+.about p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: inherit;
+  font-size: 100%;
+}
+
+.about h1 {
+  text-align: center;
+}
 
 
 /* TEAM
@@ -123,13 +143,14 @@ blockquote {
 .team {
   color:black;
   line-height: inherit;
+  max-width: 90%;
 }
 
 .team h2 {
-  font-size: 18px;
   text-transform: inherit;
   margin-top: 2%;
   margin-bottom: 2%;
+  text-align: justify;
 }
 
 .team img {
@@ -138,21 +159,31 @@ blockquote {
   display: inline;
   border-radius: 50%;
   border-style: solid;
-  padding: 2px;
+  padding: .4%;
   color: white;
 }
 
-.ashley,
-.melissa p {
+.ashley h2,
+.melissa h2 {
   text-align: center;
+  font-size: 140%;
+}
+
+.ashley p,
+.melissa p {
+  text-align: justify;
+  font-size: 90%;
 }
 
 .ashley,
 .melissa {
   display: inline-block;
   background-color: #72d5cd;
-  padding: 5% 10%;
+  padding: 5% 4%;
   margin: 3%;
+  max-width: 43%;
+  box-sizing: border-box;
+
 }
 
 
@@ -174,12 +205,13 @@ blockquote {
 footer {
   margin-bottom:0;
   display: block;
+  color: #6787A2;
 }
 
 footer p {
-  font-size:10px;
+  font-size:2%;
 }
 
 footer a {
-  color: black;
+  color: #6787A2;
 }
