@@ -125,3 +125,12 @@ footer img {
   width: 10%;
   margin: 3%;
 }
+
+footer p {
+  position:fixed;
+  font-size: 10px;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+}
