@@ -1,4 +1,4 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
+mai/* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
 }
@@ -11,7 +11,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  background: url(images/shapes.png) no-repeat fixed;
+  background: url(images/shapes.png) repeat fixed;
   background-size: cover;
 }
 h1, h2 {
@@ -57,6 +57,16 @@ header h1 {
 
 header img {
   width: 40%;
+}
+
+nav {
+  float: right;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+nav a {
+  padding: 20px;
+  color: black;
 }
 
 /* QUOTE
