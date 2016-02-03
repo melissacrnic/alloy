@@ -66,16 +66,15 @@ footer {
 #sticker {
   position:absolute;
   background-color: white;
-  padding: 1% 1%;
+  padding: 1.5% 2%;
   width: 100%;
-  float:right;
 }
 
 
 nav a {
-  padding: 20px;
+  padding: 1%;
   color: black;
-  font-size: 13px;
+  font-size: 80%;
 }
 
 nav img {
@@ -199,9 +198,13 @@ blockquote {
   color: #ffffff;
 }
 
+#contact h1 {
+  margin-bottom: 3%;
+}
+
 #contact img {
   width: 6%;
-  margin: 3%;
+  margin: 2%;
 }
 
 /* FOOTER
