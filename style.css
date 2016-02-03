@@ -28,7 +28,8 @@ p {
   line-height: 1.5; /* adjusts space between the lines */
 }
 a {
-  color: #9D6381;
+  color: white;
+  text-decoration: none;
 }
 a:hover {
   color: #CECCCC;
@@ -40,6 +41,7 @@ footer {
 }
 .team,
 .about,
+.quote,
 footer {
   text-align: center;
 }
@@ -72,9 +74,15 @@ header img {
   color: white;
 }
 
+/* QUOTE
+-----------------------------------------*/
 
+.quote {
+  background: #1490CC;
+  color: white;
+}
 
-/* LOVES - things I love
+/* TEAM
 -----------------------------------------*/
 .team {
   background: #FF5540;
