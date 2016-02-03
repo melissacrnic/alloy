@@ -11,17 +11,18 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  background: url(../images/buildings.jpg) no-repeat fixed;
+  background: url(images/shapes.png) no-repeat fixed;
   background-size: cover;
+
 }
 h1, h2 {
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat', sans-serif;
   margin: 0; /* removes default space */
   font-weight: normal; /* removes default bold style */
-  text-transform: uppercase;
+
 }
 h1 {
-  font-size:60px;
+  font-size:40px;
 }
 p {
   font-size: 18px;
@@ -49,12 +50,8 @@ strong {
   color: #9D6381;
 }
 
-
-
 /* PAGE HEADER
 -----------------------------------------*/
-header {
-}
 header h1 {
   text-transform: inherit;
 }
@@ -85,6 +82,7 @@ header img {
 }
 
 
+
 /* TEAM
 -----------------------------------------*/
 .team {
@@ -96,6 +94,8 @@ header img {
 .team h2 {
   font-size: 18px;
   text-transform: inherit;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .team img {
