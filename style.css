@@ -18,7 +18,7 @@ h1, h2 {
   font-family: 'Montserrat', cursive;
   margin: 0; /* removes default space */
   font-weight: normal; /* removes default bold style */
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 h1 {
   font-size:60px;
@@ -58,42 +58,51 @@ header {
 header h1 {
   text-transform: inherit;
 }
-header h2 {
-  font-size: 32px;
-  text-transform: inherit;
-}
 
 header img {
   width: 40%;
-}
-
-/* ABOUT
------------------------------------------*/
-.about {
-  background: #72d5cd;
-  color: white;
 }
 
 /* QUOTE
 -----------------------------------------*/
 
 .quote {
+  background: #72d5cd;
+  color: white;
+  line-height: .3%;
+  font-style: italic;
+}
+
+.quote h3 {
+  font-size: 38px;
+}
+
+/* ABOUT
+-----------------------------------------*/
+.about {
   background: #1490CC;
   color: white;
 }
+
 
 /* TEAM
 -----------------------------------------*/
 .team {
   background: #FF5540;
   color:white;
+  line-height: inherit;
 }
+
+.team h2 {
+  font-size: 18px;
+  text-transform: inherit;
+}
+
 .team img {
   width: 250px;
   margin: 15px;
   display: inline;
   border-radius: 50%;
-
 }
 
 .bios p{
