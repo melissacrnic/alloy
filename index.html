@@ -9,14 +9,21 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#sticker").sticky({topSpacing:0});
+      });
+    </script>
   </head>
 
   <body>
 
     <div id="container">
-
       <!-- Header & Nav -->
-      <nav>
+      <nav id="sticker">
+        <a href="#top" class="smoothScroll"><img src="images/favicon.png"></a>
         <a href="#about" class="smoothScroll">ABOUT</a>
         <a href="#team" class="smoothScroll">TEAM</a>
         <a href="#contact" class="smoothScroll">CONTACT</a>
@@ -37,7 +44,7 @@
       <blockquote cite="http://">
         <h3>al·loy</h3>
         <p>noun: alloy; plural noun: alloys;</p>
-        <p>a metal made by combining two or more metallic elements, especially to give greater strength</p>
+        <p>a metal made by combining two or more elements, especially to give greater strength</p>
       </blockquote>
     </section>
 
@@ -59,31 +66,36 @@
       <h1>Our Team</h1>
       <h2>Obsessed with learning, technology and the power of 'play', our team is on a mission to revolutionize education and to provide youth with the skills they need to thrive in the future. </h2>
 
-      <div class="bios">
+      <div class="ashley">
         <img src="images/ashley.jpg" alt="Ashley Inskip Lavoie">
         <p>
           <a href="http://www.twitter.com/ailavoie" target="_blank">Ashley Inskip-Lavoie</a>
+            <p>Bio goes here</p>
         </p>
       </div>
 
-      <div class="bios">
+      <div class="melissa">
         <img src="images/melissa.jpg" alt="Melissa Sariffodeen">
         <p>
           <a href="htt://www.twitter.com/melsariffodeen" target="_blank">Melissa Sariffodeen</a>
+            <p>Bio goes here</p>
         </p>
       </div>
 
     </section>
 
     <!-- footer & contact info -->
-    <footer id="contact">
+    <div id="contact">
       <h1>Get in touch!</h1>
 
       <a href="https://twitter.com/alloyschool"><img src="images/twitter.png"></a>
       <a href="http://eepurl.com/bO9TED"><img src="images/mail.png"></a>
+    </div>
 
-    <p> © 2016 The Alloy School</p>
+    <footer>
+      <p> © 2016 the alloy school. This site was built with love at <a href="http://www.ladieslearningcode.com">Ladies Learning Code</a></p>
     </footer>
+
   </div>
   </body>
 </html>
