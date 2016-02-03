@@ -127,10 +127,13 @@ footer img {
 }
 
 footer p {
-  position:fixed;
-  font-size: 10px;
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%;
+  position:absolute;
+   bottom:0;
+   font-size:10px;
+   text-align: inherit;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
 }
