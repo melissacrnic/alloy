@@ -2,9 +2,7 @@ mai/* apply a natural box layout model to all elements, but allowing components 
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -57,19 +55,24 @@ footer {
 
 #container {
   min-height: 100%;
+  max-width: 100%;
   position: relative;
 }
 
 /* PAGE NAV
 -----------------------------------------*/
 
-#sticker {
+#sticky {
   position:absolute;
   background-color: white;
-  padding: 1.5% 2%;
+  padding: 1% 1%;
+  text-align: right;
   width: 100%;
 }
 
+nav a:nth-child(4){
+  margin-right: 5%;
+}
 
 nav a {
   padding: 1%;
@@ -84,16 +87,12 @@ nav img {
 /* PAGE HEADER
 -----------------------------------------*/
 header {
-  clear:both;
-}
-header h1 {
-  text-transform: inherit;
+  overflow: hidden;
 }
 
 header img {
   width: 40%;
 }
-
 
 /* QUOTE
 -----------------------------------------*/

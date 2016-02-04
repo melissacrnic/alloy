@@ -31,10 +31,10 @@
       className: 'is-sticky',
       wrapperClassName: 'sticky-wrapper',
       center: false,
-      getWidthFrom: '',
+      getWidthFrom: '#sticky',
       widthFromWrapper: true, // works only when .getWidthFrom is empty
-      responsiveWidth: false
-    },
+      responsiveWidth: false,
+    }
     $window = $(window),
     $document = $(document),
     sticked = [],
