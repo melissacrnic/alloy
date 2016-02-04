@@ -42,10 +42,10 @@ a:hover {
   color: #CECCCC;
 }
 header,
-section,
-#contact {
+section {
   padding: 100px 150px;
 }
+
 .team,
 .about,
 #contact,
@@ -196,6 +196,7 @@ blockquote {
 #contact {
   background: #A26967;
   color: #ffffff;
+  padding: 60px 150px;
 }
 
 #contact h1 {
